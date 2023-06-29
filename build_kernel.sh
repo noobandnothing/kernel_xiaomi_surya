@@ -5,10 +5,10 @@
 #
 
 SECONDS=0 # builtin bash timer
-ZIPNAME="SilonT-$(date '+%Y%m%d-%H%M').zip"
+ZIPNAME="Pharoh-$(date '+%Y%m%d-%H%M').zip"
 TC_DIR="$(pwd)/tc/clang-r450784e"
 AK3_DIR="$(pwd)/AnyKernel3"
-DEFCONFIG="surya_defconfig"
+DEFCONFIG="mysurya_defconfig"
 
 if test -z "$(git rev-parse --show-cdup 2>/dev/null)" &&
    head=$(git rev-parse --verify HEAD 2>/dev/null); then
